@@ -1,42 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>Vakkalagada Varsha - Portfolio</title>
+ <style>
+ /* Base Styles */
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: 'Segoe UI', sans-serif;
+ background-color: #f4f8fc;
+ color: #333;
+ padding: 20px;
+ }
+ header {
+ background: linear-gradient(to right, #4a90e2, #50e3c2);
+ padding: 40px 20px;
+ text-align: center;
+ border-radius: 10px;
+ color: white;
+ }
+ header h1 {
+ font-size: 2.5rem;
+ margin-bottom: 10px;
+ }
+ main {
+ max-width: 900px;
+ margin: 40px auto;
+ background: white;
+ padding: 30px;
+ border-radius: 10px;
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+ section {
+ margin-bottom: 40px;
+ }
+ h2 {
+ color: #4a90e2;
+ margin-bottom: 10px;
+ }
+ ul {
+ padding-left: 20px;
+ margin-top: 10px;
+ }
+ li {
+ margin-bottom: 6px;
+ }
+ .project {
+ background: #eaf3ff;
+ padding: 15px;
+ margin-top: 10px;
+ border-left: 5px solid #4a90e2;
+ border-radius: 6px;
+ }
+ a {
+ color: #2d6cdf;
+ text-decoration: none;
+ }
+ a:hover {
+ text-decoration: underline;
+ }
+ footer {
+ text-align: center;
+ margin-top: 40px;
+ padding: 20px;
+ background-color: #4a90e2;
+ color: white;
+ border-radius: 10px;
+ }
+ @media (max-width: 600px) {
+ body {
+ padding: 10px;
+ }
+ main {
+ padding: 20px;
+ }
+ }
+ </style>
 </head>
 <body>
-
-  <header>
-    <h1>Shanmukha Lakshmi Narasimha</h1>
-    <p>3rd Year B.Tech - St. Ann's College of Engineering and Technology</p>
-  </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>As the IEEE Student Branch Chairman at SACET, I lead a dynamic team in organizing technical workshops, seminars, and innovation challenges, fostering a culture of learning and collaboration. In my role as EAF Coordinator, I bridge the gap between students and academic resources, ensuring effective participation in educational activities. My internship experience at Dixon Technologies India Limited strengthened my practical skills in embedded systems and PCB-based development. I’m an IoT enthusiast with hands-on experience in Arduino and Python, passionate about building smart, efficient solutions through technology.
-
-</p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>Home Automation System using NodeMCU</li>
-      <li>Accident Prevention System with Sensors</li>
-      <li>PCB Prototyping Internship at Dixon Technologies</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email: shanushanu5627@gmail.com</p>
-    <p>LinkedIn: <a href="www.linkedin.com/in/shanmukha-lakshmi-narasimha-gudivada-b08a38316</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Shanmukha Lakshmi Narasimha</p>
-  </footer>
-
+ <header>
+ <h1>Vakkalagada Varsha</h1>
+ <p>Welcome to My Portfolio</p>
+ </header>
+ <main>
+ <section id="about">
+ <h2>About Me</h2>
+ <p>Hello! I'm Vakkalagada Varsha, a passionate individual dedicated to learning and building
+creative digital experiences. I enjoy crafting beautiful websites and exploring new technologies. I am
+committed to continuous growth and innovation in the tech world.</p>
+ </section>
+ <section id="skills">
+ <h2>Skills</h2>
+ <ul>
+ <li>HTML5 & CSS3</li>
+ <li>JavaScript</li>
+ <li>Responsive Web Design</li>
+ </ul>
+ <h2>Interests</h2>
+ <ul>
+ <li>UI/UX Design</li>
+ <li>Web Development</li>
+ <li>Technology Blogging</li>
+ </ul>
+ </section>
+ <section id="projects">
+ <h2>Projects</h2>
+ <div class="project">
+ <h3>Number Guessing Game</h3>
+ <p>A simple and fun game where the user guesses a randomly generated number. Built with
+HTML, CSS, and JavaScript.</p>
+ <a href="#">View Project</a>
+ </div>
+ <div class="project">
+ <h3>My Portfolio Website</h3>
+ <p>This responsive portfolio website showcasing my work and skills.</p>
+ <a href="#">You're already here!</a>
+ </div>
+ </section>
+ <section id="contact">
+ <h2>Contact</h2>
+ <p>Email: <a href="mailto:srivarsha138@gmail.com">srivarsha138@gmail.com</a></p>
+ <p>
+ <a href="https://www.linkedin.com/in/vakkalagadda-sri-varshaa48225324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=andr
+oid_app" target="_blank">LinkedIn</a> |
+ <a href="https://github.com/Varsha434" target="_blank">GitHub</a>
+ </p>
+ </section>
+ </main>
+ <footer>
+ &copy; 2025 Vakkalagada Varsha â€” All Rights Reserved
+ </footer>
 </body>
 </html>
